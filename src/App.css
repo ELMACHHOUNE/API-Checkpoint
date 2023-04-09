@@ -1,0 +1,85 @@
+/* Reset default styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* App container */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* App header */
+
+.app-header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.app-heading {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+/* App main */
+
+.app-main {
+  background-color: #f7f7f7;
+  flex: 1;
+  padding: 20px;
+}
+
+/* App footer */
+
+.app-footer {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.app-footer p {
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.user-list-container {
+  margin: 50px auto;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.user-list-heading {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.user-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.user-list-item {
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+}
